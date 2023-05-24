@@ -1,4 +1,4 @@
-const YoutubeSearchApi = "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
+const YoutubeSearchApi = "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
 
 let suggestions =[]
 function debounce(fun,delay){

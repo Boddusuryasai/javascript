@@ -8,17 +8,19 @@
     <title>Blog App</title>
 </head>
 <body>
+    <div class="container">
     <nav class="nav">
         <h1>Blog App</h1>
     </nav>
     <form onsubmit="handleSubmit(event)">
-        <input type="text" placeholder="add title" required>
-        <input type="text" placeholder="add body" required>
-        <button type="submit">add</button>
+        <input placeholder="add title..." type="text" name="text" class="input" required>
+        <input placeholder="add body..." type="text" name="text" class="input" required>
+        <button type="submit" >add</button>
     </form>
     <main class="blog-container" id="blog-container">
         
     </main>
+</div>    
 <script src="script.js"></script>
    
 </body>
